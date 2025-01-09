@@ -7,6 +7,7 @@ body {
   overflow: hidden;
   background-color: #000000;
   background-image: url(./assets/background.png);
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   color: white;
 }
 @keyframes fadeIn {
