@@ -5,8 +5,8 @@ body {
   font-weight: 700;
   animation: fadeIn 1.5s ease-in-out;
   overflow: hidden;
-  background-color: #290d0d;
-  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  background-color: #000000;
+  background-image: url(./assets/background.png);
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   color: white;
 }
