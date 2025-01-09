@@ -3,9 +3,12 @@ body {
   padding: 0;
   font-family: "Barlow Semi Condensed", serif;
   font-weight: 700;
-  background-color: rgb(0, 0, 0);
   animation: fadeIn 1.5s ease-in-out;
   overflow: hidden;
+  background-color: #290d0d;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  color: white;
 }
 @keyframes fadeIn {
   from {
@@ -15,15 +18,7 @@ body {
     opacity: 1;
   }
 }
-.background-video {
-  filter: brightness(40%); /* Reduz o brilho para escurecer */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Faz o vídeo cobrir a tela */
-}
+
 .content {
   z-index: 1; /* Certifica que o texto fica sobre o vídeo */
   color: rgb(240, 240, 240);
@@ -38,7 +33,7 @@ ul {
 }
 h1 {
   padding: 150px;
-  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  text-shadow: 1.5px 1.5px 1.5px rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   text-decoration: none;
   position: relative; /* Necessário para alinhar o pseudo-elemento */
@@ -64,14 +59,6 @@ h1::before {
   100% {
     opacity: 0; /* Ponto invisível */
   }
-}
-h2 {
-  text-align: center;
-  position: relative;
-  text-shadow: 2px 2px 2px rgb(0, 0, 0);
-  left: 15%;
-  bottom: 215px;
-  font-size: 1.2rem;
 }
 a {
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
