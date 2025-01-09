@@ -1,4 +1,4 @@
-# Bem-vindo ao meu Portfólio!
+# Bem-vindo ao meu Portfólio! 👋
 
 Este é o meu portfólio de projetos autônomos, onde compartilho alguns dos trabalhos que desenvolvi. Eles abordam uma variedade de tecnologias, desde aplicações web simples até soluções em Python e C#.
 
