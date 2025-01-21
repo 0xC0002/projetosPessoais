@@ -18,7 +18,7 @@ body {
 }
 
 .content {
-  z-index: 1; /* Certifica que o texto fica sobre o vídeo */
+  z-index: 1;
   color: rgb(240, 240, 240);
   text-align: center;
 }
@@ -33,28 +33,27 @@ h1 {
   text-shadow: 1.5px 1.5px 1.5px rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   text-decoration: none;
-  position: relative; /* Necessário para alinhar o pseudo-elemento */
-  display: inline-block; /* Garante alinhamento inline */
-  font-size: 4rem; /* Tamanho do título */
+  position: relative;
+  display: inline-block;
+  font-size: 4rem;
 }
-/* Adiciona o ponto piscante antes do texto Wishlist */
+/* ponto */
 h1::before {
-  content: "."; /* Ponto adicionado */
+  content: ".";
   position: absolute;
-  right: 7.3rem; /* Define a posição antes do texto */
-  animation: blink 1.5s infinite; /* Aplica a animação */
-  font-size: 2.7rem; /* Tamanho do título */
+  right: 7.3rem;
+  animation: blink 1.5s infinite;
+  font-size: 2.7rem;
   margin: 21px;
 }
-/* Animação para piscar */
 @keyframes blink {
   0%,
   50% {
-    opacity: 1; /* Ponto visível */
+    opacity: 1;
   }
   50.01%,
   100% {
-    opacity: 0; /* Ponto invisível */
+    opacity: 0;
   }
 }
 a {
